@@ -4,7 +4,6 @@ In this repository , I am going to push my notes of design patterns and build pr
 
 # Week 1 : Strategy Pattern and Observer pattern 
 ## Source : Head First Design Pattern for the study material.
-## Project: Perfect — that’s an excellent way to build pattern intuition.
 
 ---
 
