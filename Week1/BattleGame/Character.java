@@ -1,6 +1,6 @@
 public abstract class Character {
     int health;
-    Behaviour behaviour;
+    ObservableBehaviour behaviour;
     
     public int getHealth(){
         return this.health;
@@ -8,7 +8,7 @@ public abstract class Character {
     public void setHealth(int newHealth){
         this.health = newHealth;
     }
-    public Behaviour getBehaviour(){
+    public ObservableBehaviour getBehaviour(){
         return this.behaviour;
     }
 

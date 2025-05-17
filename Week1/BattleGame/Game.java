@@ -2,9 +2,16 @@ public class Game {
     public static void main(String[] args) {
     Character player1 = new Warrior();
     Character player2 = new Mage();
+    logger log = new logger();
+    
+    player1.getBehaviour().registerObserver(log);
+    player2.getBehaviour().registerObserver(log);
+
     while (player1.getHealth()>0 && player2.getHealth()>0) {
+        System.out.println("Player 1 's turn");
         player1.getBehaviour().execute(player1, player2);
         if (player2.getHealth()>0) {
+        System.out.println("Player 2 's turn");
         player2.getBehaviour().execute(player2, player1);
         }
     }
