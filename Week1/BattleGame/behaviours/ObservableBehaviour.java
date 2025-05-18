@@ -6,10 +6,11 @@ import observer.Subject;
 
 public abstract class ObservableBehaviour implements Behaviour, Subject {
     private String name;
+    private List<Observer> observers = new ArrayList<>();
+    
      public ObservableBehaviour(String name) {
         this.name = name;
     }
-    private List<Observer> observers = new ArrayList<>();
 
     @Override
     public void registerObserver(Observer o) {
