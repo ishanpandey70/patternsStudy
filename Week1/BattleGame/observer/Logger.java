@@ -1,4 +1,5 @@
-public class logger implements Observer {
+package observer;
+public class Logger implements Observer {
   
     @Override
     public void update(Subject subject) {

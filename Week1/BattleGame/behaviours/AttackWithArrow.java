@@ -1,5 +1,8 @@
+package behaviours;
+import characters.Character;
+
 public class AttackWithArrow extends ObservableBehaviour {
-    int offset= 15;
+    private int offset= 15;
      public AttackWithArrow() {
         super("Attack With Arrow");
     }

@@ -1,8 +1,11 @@
+package behaviours;
 import java.util.ArrayList;
 import java.util.List;
+import observer.Observer;
+import observer.Subject;
 
 public abstract class ObservableBehaviour implements Behaviour, Subject {
-    String name;
+    private String name;
      public ObservableBehaviour(String name) {
         this.name = name;
     }

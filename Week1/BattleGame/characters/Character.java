@@ -1,5 +1,8 @@
+package characters;
+import behaviours.ObservableBehaviour;
+
 public abstract class Character {
-    int health;
+    protected int health;
     ObservableBehaviour behaviour;
     
     public int getHealth(){

@@ -1,6 +1,9 @@
+package behaviours;
+import characters.Character;
+
 public class AttackWithMagic  extends ObservableBehaviour  {
    
-    int offset= 10;
+    private int offset= 10;
       public AttackWithMagic() {
         super("Attack With Magic");
     }

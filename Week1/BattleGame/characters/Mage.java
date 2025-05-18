@@ -1,3 +1,6 @@
+package characters;
+import behaviours.AttackWithMagic;
+
 public class Mage extends Character {
     public Mage() {
         this.health = 100;

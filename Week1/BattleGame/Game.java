@@ -1,8 +1,13 @@
+import characters.Character;
+import characters.Mage;
+import characters.Warrior;
+import observer.Logger;
+
 public class Game {
     public static void main(String[] args) {
     Character player1 = new Warrior();
     Character player2 = new Mage();
-    logger log = new logger();
+    Logger log = new Logger();
     
     player1.getBehaviour().registerObserver(log);
     player2.getBehaviour().registerObserver(log);
