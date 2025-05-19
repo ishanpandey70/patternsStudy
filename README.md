@@ -30,3 +30,5 @@ You're building a **Battle Arena** simulator. Here's what it should support:
 * Add an "arena announcer" that gives commentary.
 
 ---
+# Week 2 : Decorater and Factory Pattern
+## Source : Head First Design Pattern for the study material.
